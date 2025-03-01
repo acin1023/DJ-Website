@@ -1,0 +1,90 @@
+body {
+    background-color: hotpink;
+    color: blue;
+}
+
+:root {
+    --clr-main: #fdba74;
+    --clr-light: #f1f5f9;
+    --clr-dark: #09090b;
+    --clr-cyan400: #22d3ee;
+    --clr-sky400: #38bdf8;
+    --clr-sky600: #0284c7;
+    --clr-blue400: #60a5fa;
+    --clr-red400: #f87171;
+    --clr-red500: #ef4444;
+    --clr-teal700: #0f766e;
+    --clr--emerald600: #059669;
+    --clr-emerald400: #34d399;
+    --clr-stone300: #d6d3d1;
+    /* flex basis sizing  */
+
+    --size-xxs: 0.625rem;
+    --size-xs: 0.75rem;
+    --size-s: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+
+}
+
+* {
+    margin: 0rem;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-sky600);
+    outline: 1px solid var(--clr-light);
+}
+
+/* xxs screens */
+/* @media (min-width: 320px) {} */
+
+/* small screens */
+/* @media (min-width: 425px) {} */
+
+/* medium screens */
+/* @media (min-width: 768px) {} */
+
+/* l screens */
+/* @media (min-width: 1024px) {} */
+
+/* xl screens */
+/* @media (min-width: 1440px) {} */
+
+/* 2xl screens
+@media (min-width: 1536px) {} */
