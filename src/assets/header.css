@@ -76,7 +76,7 @@ nav ul {
 }
 
 .hero-bg {
-    background-image: url("../images/BGMedium.jpeg");
+    background-image: url("/src/images/BGMedium.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

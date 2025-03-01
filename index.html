@@ -4,14 +4,71 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link rel="stylesheet" href="/src/assets/default-style.css">
+   <link rel="stylesheet" href="/src/assets/utility.css">
+    <link rel="stylesheet" href="/src/assets/header.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Baumans&family=Bungee+Shade&family=Fascinate+Inline&family=Faster+One&family=Honk&family=Jersey+10&family=Lacquer&family=Monoton&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Mind of AC</title>
   </head>
-  <body>
-    <h1>Index</h1>
-    <a href="/index.html">Home</a>
-    <a href="/playlist/">Playlists</a>
-    <a href="/subscribe/index.html">Subscribe</a>
-    <div id="app"></div>
-    <script type="module" src="/src/assets/default-style.css"></script>
+  <body class="hero-bg">
+    <header class="header_container">
+      <img src="/src/images/mainlogo.png" alt="logo" class="logo" data-aos="zoom-in"
+      data-aos-delay="300"
+      data-aos-duration="9000" />
+      <nav>
+        <ul class="navbar" data-aos="slide-right"
+        data-aos-delay="200"
+        data-aos-duration="9000">
+          <li>
+            <a class="header__link home-header" href="/index.html" target="_blank">Home</a>
+          </li>
+          <li>
+            <a class="header__link home-header" href="/playlist/index.html" target="_blank"
+              >Playlists</a
+            >
+          </li>
+          <li>
+            <a class="header__link home-header" href="/subscribe/index.html" target="_blank"
+              >Stay Connected</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <div class="hero">
+        <p class="play">
+          Sit back, relax, just ease ya mind
+          <a href="https://soundcloud.com/ace1023/tracks" target="_blank">
+            <i class="fa-solid fa-headphones fa-beat"></i>
+            
+        </p>
+      </div>
+      <div class="social_icons">
+        <a href="https://soundcloud.com/ace1023" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
+        <a href="https://www.linkedin.com/in/angel-cintron-7317b01b7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/ac_baklava/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/acin1023?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
+
+
