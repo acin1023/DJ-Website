@@ -140,30 +140,30 @@ nav ul {
 
 
 .card-1 {
-    background-image: url("../images/dance.jpeg");
+    background-image: url("/src/images/dance.jpeg");
 }
 
 
 .card-2 {
-    background-image: url("../images/verano.jpeg");
+    background-image: url("/src/images/verano\ Medium.jpeg");
 }
 
 .card-3 {
-    background-image: url("../images/love.jpeg");
+    background-image: url("/src/images/love.jpeg");
 }
 
 
 .card-4 {
-    background-image: url("../images/nostalgia.jpeg");
+    background-image: url("/src/images/nostalgia.jpeg");
 }
 
 .card-5 {
-    background-image: url("../images/rockstar.jpeg");
+    background-image: url("/src/images/rockstar.jpeg");
 
 }
 
 .card-6 {
-    background-image: url("../images/aux.jpeg");
+    background-image: url("/src/images/aux.jpeg");
 
 }
 

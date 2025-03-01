@@ -4,13 +4,194 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Baumans&family=Bungee+Shade&family=Fascinate+Inline&family=Faster+One&family=Honk&family=Jersey+10&family=Lacquer&family=Monoton&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/assets/default-style.css" />
+    <link rel="stylesheet" href="/src/assets/utility.css" />
+    <link rel="stylesheet" href="/src/assets/playlist.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Playlists</title>
   </head>
-  <body></body>
-    <a href="/">Index</a>
-    <a href="/playlist/index.html">Playlists</a>
-    <a href="/subscribe/index.html">Subscribe</a>
-    <div id="app"></div>
-    <script type="module" src="/src/assets/default-style.css"></script>
+  <body>
+    <header class="header_container">
+      <img
+        src="/src/images/mainlogo.png"
+        alt="logo"
+        class="logo"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        data-aos-duration="9000"
+      />
+      <nav>
+        <ul
+          class="navbar"
+          data-aos="slide-right"
+          data-aos-delay="200"
+          data-aos-duration="9000"
+        >
+          <li>
+            <a
+              class="header__link play-header"
+              href="/index.html"
+              target="_blank"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="header__link play-header"
+              href="/playlist/index.html"
+              target="_blank"
+              >Playlists</a
+            >
+          </li>
+          <li>
+            <a
+              class="header__link play-header"
+              href="/subscribe/index.html"
+              target="_blank"
+              >Stay Connected</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container">
+      <div
+        class="card"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="9000"
+      >
+        <a
+          href="https://music.apple.com/us/playlist/when-i-hear-music-it-makes-me-dance/pl.u-pMylYjaU4YP6brr"
+          target="_blank"
+          ><div class="card-image card-1"></div
+        ></a>
+
+        <div class="description">
+          <h3>When I Hear Music, It Makes Me Dance</h3>
+          <p>
+            Get up and move your feet! House music to elevate your party.
+            Featuring Kaytranada of course.
+          </p>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="9000"
+      >
+        <a
+          href="https://music.apple.com/us/playlist/wisin-jhayco-anuel-aa-fiel-feat-los-legendarios-myke/pl.u-EdAVe8qsaXo3077"
+          target="_blank"
+          ><div class="card-image card-2"></div
+        ></a>
+
+        <div class="description">
+          <h3>Un Verano...</h3>
+          <p>
+            Si hay sol, hay musica! The latest reggaeton hits from the biggest
+            superstars in the industry.
+          </p>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="9000"
+      >
+        <a
+          href="https://music.apple.com/us/playlist/music-sounds-better-with-you/pl.u-r2yBX64tP9WNbYY"
+          target="_blank"
+          ><div class="card-image card-3"></div
+        ></a>
+
+        <div class="description">
+          <h3>Music Sounds Better With You</h3>
+          <p>
+            Lay up with your person and vibe for the night. The latest
+            contemporary R&B from your favorite and soon to be favorite artists!
+          </p>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="9000"
+      >
+        <a
+          href="https://music.apple.com/us/playlist/throwbacks/pl.u-EdAVeMVIaXo3077"
+          target="_blank"
+          ><div class="card-image card-4"></div
+        ></a>
+
+        <div class="description">
+          <h3>Nostalgia</h3>
+          <p>The best Hip-Hop and R&B songs from the golden era of music!</p>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="9000"
+      >
+        <a
+          href="https://music.apple.com/us/playlist/wheres-the-fucking-blow-at/pl.u-XkD0rELsD4ej788"
+          target="_blank"
+          ><div class="card-image card-5"></div
+        ></a>
+
+        <div class="description">
+          <h3>T-T-Totally Dude!</h3>
+          <p>
+            Need a good pump? Set a new PR? This playlist is for you! These
+            songs will have you locked in at the gym.
+          </p>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-up"
+        data-aos-delay="600"
+        data-aos-duration="9000"
+      >
+        <a
+          href="https://music.apple.com/us/playlist/pass-me-the-aux/pl.u-4JomV9lsaM9r733"
+          target="_blank"
+          ><div class="card-image card-6"></div
+        ></a>
+
+        <div class="description">
+          <h3>Pass Me The Aux!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            aspernatur, expedita consectetur quidem quis eum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/playlist/playlist.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
