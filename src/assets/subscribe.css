@@ -39,7 +39,7 @@ nav li a:hover {
 }
 
 .subscribe_bg {
-    background-image: url("../images/newsletterbg.jpeg");
+    background-image: url("/src/images/newsletterbg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
