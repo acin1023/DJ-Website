@@ -9,7 +9,8 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        playlist: resolve(__dirname, 'login/index.html')
+        playlist: resolve(__dirname, 'playlist/index.html'),
+        subscribe: resolve(__dirname, 'subscribe/index.html')
       }
     }
   }
