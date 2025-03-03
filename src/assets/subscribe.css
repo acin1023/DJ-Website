@@ -19,7 +19,7 @@ nav ul {
 
 nav li a {
     text-decoration: none;
-    color: var(--clr-dark);
+    color: var(--clr-blue400);
     font-family: "Faster One", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -33,13 +33,13 @@ nav li a {
 }
 
 nav li a:hover {
-    color: var(--clr-blue400);
+    color: var(--clr-light);
     transform: translateY(-0.5rem);
     isolation: isolate;
 }
 
 .subscribe_bg {
-    background-image: url("/src/images/newsletterbg.jpeg");
+    background-image: url("/src/images/AltBGlarge.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,7 +50,7 @@ nav li a:hover {
 
 .newsletter p {
     font-size: var(--size-4xl);
-    color: var(--clr-dark);
+    color: var(--clr-light);
     font-family: "VT323", serif;
     position: absolute;
     left: 50%;
