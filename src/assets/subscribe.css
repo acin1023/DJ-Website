@@ -136,6 +136,34 @@ nav li a:hover {
     }
 }
 
+/* Extra Small screens */
+@media (min-width: 320px) {
+
+    .logo {
+        height: 25px;
+    }
+
+    nav li a {
+        font-size: var(--size-xs);
+    }
+
+    .form-group input {
+        padding: 1rem 0.8rem;
+        font-size: var(--size-s);
+    }
+
+    .small-btn {
+        font-size: var(--size-xs);
+        left: 73%;
+        transform: translateY(-128%);
+    }
+
+    .newsletter p {
+        font-size: var(--size-s);
+        top: 68%;
+    }
+}
+
 /* Small screens */
 @media (min-width: 425px) {
 
@@ -154,7 +182,7 @@ nav li a:hover {
 
     .small-btn {
         font-size: var(--size-xs);
-        left: 74%;
+        left: 72%;
         transform: translateY(-130%);
     }
 
@@ -233,12 +261,13 @@ nav li a:hover {
 
     .small-btn {
         font-size: var(--size-xl);
-        left: 82%;
+        left: 81%;
         transform: translateY(-142%);
     }
 
     .newsletter p {
         font-size: var(--size-3xl);
+        top: 68%;
     }
 }
 
@@ -280,6 +309,6 @@ nav li a:hover {
 
     .newsletter p {
         font-size: var(--size-4xl);
-        top: 70%;
+        top: 72%;
     }
 }
