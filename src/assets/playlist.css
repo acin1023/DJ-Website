@@ -140,7 +140,7 @@ nav ul {
 
 
 .card-1 {
-    background-image: url("/src/images/dance.jpeg");
+    background-image: url("/src/images/aux.jpeg");
 }
 
 
@@ -154,16 +154,17 @@ nav ul {
 
 
 .card-4 {
-    background-image: url("/src/images/nostalgia.jpeg");
+    background-image: url("/src/images/dance.jpeg");
+
 }
 
 .card-5 {
-    background-image: url("/src/images/rockstar.jpeg");
+    background-image: url("/src/images/nostalgia.jpeg");
 
 }
 
 .card-6 {
-    background-image: url("/src/images/aux.jpeg");
+    background-image: url("/src/images/rockstar.jpeg");
 
 }
 
