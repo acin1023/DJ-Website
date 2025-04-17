@@ -215,7 +215,7 @@ nav ul {
     .play {
         font-size: var(--size-l);
         position: absolute;
-        text-wrap: wrap;
+
     }
 
     .social_icons a {
